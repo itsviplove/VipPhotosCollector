@@ -55,6 +55,7 @@ class AddGameViewController: UIViewController, UIImagePickerControllerDelegate ,
         game.images = UIImagePNGRepresentation(GamePhoto.image!) as NSData?
         
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
-        print(game)
+        navigationController?.popViewController(animated: true)
+        
     }
 }
