@@ -13,6 +13,8 @@
 		180A65CA1E66C22C0016D067 /* GameCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 180A65C81E66C22C0016D067 /* GameCollector.xcdatamodeld */; };
 		180A65CC1E66C22C0016D067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180A65CB1E66C22C0016D067 /* Assets.xcassets */; };
 		180A65CF1E66C22C0016D067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180A65CD1E66C22C0016D067 /* LaunchScreen.storyboard */; };
+		180A65D71E66CD8F0016D067 /* AddGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A65D61E66CD8F0016D067 /* AddGameViewController.swift */; };
+		180A65D91E66CDAD0016D067 /* ModifyGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A65D81E66CDAD0016D067 /* ModifyGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		180A65CB1E66C22C0016D067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180A65CE1E66C22C0016D067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180A65D01E66C22C0016D067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180A65D61E66CD8F0016D067 /* AddGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGameViewController.swift; sourceTree = "<group>"; };
+		180A65D81E66CDAD0016D067 /* ModifyGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				180A65C11E66C22C0016D067 /* AppDelegate.swift */,
 				180A65C31E66C22C0016D067 /* ViewController.swift */,
+				180A65D61E66CD8F0016D067 /* AddGameViewController.swift */,
+				180A65D81E66CDAD0016D067 /* ModifyGameViewController.swift */,
 				180A65C51E66C22C0016D067 /* Main.storyboard */,
 				180A65CB1E66C22C0016D067 /* Assets.xcassets */,
 				180A65CD1E66C22C0016D067 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180A65D91E66CDAD0016D067 /* ModifyGameViewController.swift in Sources */,
+				180A65D71E66CD8F0016D067 /* AddGameViewController.swift in Sources */,
 				180A65CA1E66C22C0016D067 /* GameCollector.xcdatamodeld in Sources */,
 				180A65C41E66C22C0016D067 /* ViewController.swift in Sources */,
 				180A65C21E66C22C0016D067 /* AppDelegate.swift in Sources */,
