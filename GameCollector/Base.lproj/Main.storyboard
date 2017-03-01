@@ -45,7 +45,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="TZV-SU-8UV" id="EEp-et-P7z"/>
-                        <segue destination="3QI-A5-rG0" kind="show" action="showDetailViewController:sender:" id="poz-B4-eHl"/>
+                        <segue destination="3QI-A5-rG0" kind="show" identifier="modifySegue" action="showDetailViewController:sender:" id="poz-B4-eHl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -90,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QII-1r-EC2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="630" y="156"/>
+            <point key="canvasLocation" x="630" y="324"/>
         </scene>
         <!--Add Game View Controller-->
         <scene sceneID="srG-PA-Foy">
@@ -111,7 +111,7 @@
                                     <constraint firstAttribute="height" constant="220" id="pYE-ev-LB3"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rfg-wE-K4l">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rfg-wE-K4l">
                                 <rect key="frame" x="47.5" y="334" width="280" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -139,8 +139,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="NDP-by-40v">
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="camera" id="wki-f1-afA"/>
-                            <barButtonItem title="Photos" id="W1U-yc-ICu"/>
+                            <barButtonItem systemItem="camera" id="wki-f1-afA">
+                                <connections>
+                                    <action selector="cameraTapped:" destination="Esb-rb-TR1" id="Oij-IH-FQm"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Photos" id="W1U-yc-ICu">
+                                <connections>
+                                    <action selector="photsTapped:" destination="Esb-rb-TR1" id="12j-0u-KBD"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>

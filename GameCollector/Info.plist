@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>we want to access your photos to select photo then you dont have to take new !</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We want to acess Camera for take Awesome Picture !</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
